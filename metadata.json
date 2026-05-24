@@ -1,0 +1,22 @@
+{
+  "roc_auc": 0.9654,
+  "pr_auc": 0.9388,
+  "threshold": 0.11,
+  "feat_names": [
+    "step",
+    "type",
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "amount_ratio",
+    "OriginalBalanceWError",
+    "DestBalanceError",
+    "IsFullTransfer"
+  ],
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 100,
+  "class_weight": "balanced",
+  "rbi_aligned": true
+}
